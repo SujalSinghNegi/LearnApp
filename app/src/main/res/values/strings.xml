@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ff</string>
+    <string name="heading">Revising App Development</string>
+    <string name="first">1. New Screen</string>
+    <string name="second">2. Recycler View</string>
+    <string name="NextScreenHeading">Hello! Welcome to the another screen.\n</string>
+    <string name="NextScreenInfo"><![CDATA[
+<p>1. To create the new screen, first create a layout or an activity (the layout is automatically created in the layout folder).</p>
+
+<p>2. Now choose how the screen will open. If you want to open the screen by clicking on a button, then type the following code in the button’s click listener:</p>
+
+<pre>
+val intent = Intent(this@MainActivity, NextScreen::class.java)
+startActivity(intent)
+</pre>
+
+<p>OR, directly write it like:</p>
+
+<pre>
+startActivity(Intent(this@MainActivity, NextScreen::class.java))
+</pre>
+
+<p>"MainActivity" is the name of the current activity and "NextScreen" is the name of the activity you want to open.</p>
+
+<p>4. Another method of opening the next screen is the coroutine scope method, which is safer:</p>
+
+<pre>
+CoroutineScope(Dispatchers.Main).launch {
+    startActivity(Intent(this@MainActivity, NextScreen::class.java))
+}
+</pre>
+]]></string>
+    <string name="mainClickHere"> Click here to know about this page </string>
+    <string name="about">About</string>
+    <string name="click_me">Click Me</string>
+    <string name="textview">TextView</string>
+    <string name="count">count</string>
+
+
+</resources>
