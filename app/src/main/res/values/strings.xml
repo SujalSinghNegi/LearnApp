@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ff</string>
+    <string name="app_name">Learn App</string>
     <string name="heading">Revising App Development</string>
     <string name="first">1. New Screen</string>
     <string name="second">2. Recycler View</string>
