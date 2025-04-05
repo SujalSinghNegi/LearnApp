@@ -27,10 +27,7 @@ class MainActivity : AppCompatActivity() {
             val intent= Intent(this@MainActivity,NextScreen::class.java)
             startActivity(intent)
         }
-        mainScreenInfo.setOnClickListener{
-            val intent= Intent(this@MainActivity,mainInfoActivity::class.java)
-            startActivity(intent)
-        }
+
 
     }
 }
